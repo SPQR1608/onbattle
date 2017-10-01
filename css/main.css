@@ -1,0 +1,615 @@
+div {
+/ / background-color: #CCFFFF;
+    font-size: 10px;
+    color: black;
+    font-family: Verdana, Tahoma, sans-serif;
+    float: none;
+    letter-spacing: 5px;
+    height: auto;
+    width: 1000px;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+div.userPanel {
+    font-size: 15px;
+    color: black;
+    letter-spacing: 3px;
+    height: 115px;
+    weight: 900px;
+    font-family: Verdana, Tahoma, sans-serif;
+    //text-align: left;
+    vertical-align: middle;
+    //background: url("../img/backgrounds/shattered/shattered.png");
+   // background-size: cover;
+    margin-top: 0px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0,0,0,.6);
+    background: linear-gradient(#888888, #333333);
+}
+div.userPanel table{
+    vertical-align: top;
+}
+div#userAvatar img{
+    //border: 1px solid #000;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+div.Avatar{
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#userTable td{
+    vertical-align: top;
+    text-align: center;
+    //width: 90px;
+}
+#userTable{
+    vertical-align: top;
+    box-shadow: 0 8px 15px rgba(0,0,0,.6);
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+div.text {
+    font-family: Verdana, Tahoma, sans-serif;
+    color: black;
+}
+
+div.content {
+    background-image: url('../img/backgrounds/shattered/shattered.png');
+    font-size: 10px;
+    color: black;
+    float: none;
+    letter-spacing: 5px;
+    height: auto;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 0px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+
+/*****Forum*****/
+/**************/
+.forumTable {
+    margin-top: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 12px;
+    width: 950px;
+    box-shadow: 0 8px 15px rgba(0,0,0,.6);
+    //border:1px solid #688bb0;
+}
+.forumTable td{
+    border:1px solid #688bb0;
+    box-shadow: 0 3px 9px rgba(0,0,0,.6);
+}
+#themeTdforumTable a{
+    text-decoration: none;
+}
+#themeTdforumTable{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+#dateInTheme{
+    text-align: right;
+    font-size: 12px;
+}
+#authorInTheme{
+    text-align: left;
+}
+div.forumContent {
+    background-image: url('../img/backgrounds/shattered/shattered.png');
+    color: #333333;
+    margin-top: 0;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0,0,0,.6);
+}
+
+div.InTheme {
+    border:1px solid #688bb0;
+    width: 950px;
+    font-size: 16px;
+    color: black;
+    font-family: Verdana, Tahoma, sans-serif;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+.tableInTheme{
+    width: 950px;
+}
+div.forumAnswers{
+    border:1px solid #688bb0;
+    width: 990px;
+    font-size: 12px;
+    color: black;
+    font-family: Verdana, Tahoma, sans-serif;
+    margin-bottom: 1%;
+    text-align: left;
+    background: #ffffff;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+div.forumAnswers:hover{
+    background: #CCFFFF;
+}
+div.forumAnswers td{
+    text-align: left;
+    vertical-align: middle;
+//width: 200px;
+}
+.answerToForumButton{
+    width: 100px;
+    margin-left: 10px;
+}
+span.answerAuthor, .answerForWhom{
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    vertical-align: middle;
+}
+
+/***********************/
+/**********************/
+
+body {
+    background: url('../img/backgrounds/grey_wash_wall/grey_wash_wall.png');
+    //background-size: cover;
+    font: 1em 'PT Sans', Tahoma, Arial;
+    margin: auto;
+}
+
+div.header {
+    background: url('../img/main12.png') no-repeat;
+    background-size: contain;
+    //margin-top: -30px;
+    height: 100px;
+    //width: 100%;
+    margin: auto;
+    top:0;
+    left:0;
+    right: 0;
+    position: absolute;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+
+    box-shadow: 0 8px 15px rgba(0,0,0,.6);
+}
+div.Logotip{
+    background: url('../img/main1.jpg') no-repeat;
+    background-size: cover;
+    margin-top: -30px;
+    height: 500px;
+    //width: 100%;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+
+    box-shadow: 0 8px 15px rgba(0,0,0,.6);
+}
+/***Registration****/
+/******************/
+div.regBody {
+    font-size: 15px;
+   // color: black;
+    letter-spacing: 3px;
+    font-weight: 900;
+    font-family: Verdana, Tahoma, sans-serif;
+    background-image: url('../img/backgrounds/shattered/shattered.png');
+    background-size: cover;
+    color: #333333;
+    margin-top: -14px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0,0,0,.6);
+}
+
+div.regButton {
+    font-size: 15px;
+    color: black;
+    font-family: Verdana, Tahoma, sans-serif;
+    background-color: #3c43ff;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    box-shadow: 0 8px 15px rgba(0,0,0,.6);
+}
+div.regButton a{
+    text-decoration: none;
+}
+div.regButton:hover{
+    background-color: #888888;
+    color:#333333;
+}
+/******************/
+
+/**********NEWS**********/
+/***********************/
+div.news {
+    background: url('../img/backgrounds/shattered/shattered.png');
+    //background-size: cover;
+    border-radius: 10px;
+   // position: absolute;
+   // margin: auto 13.5%;
+    right: 0;
+    left: 0;
+    overflow: auto;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0,0,0,.6);
+}
+
+div.oneOfNews {
+    width: 900px;
+    //border:1px solid #688bb0;
+    //font-size: 18px;
+    color: black;
+    left: 0;
+    right: 0;
+    font-family: Verdana, Tahoma, sans-serif;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+#oneNewsTopic{
+    font-size: 20px;
+    font-style: italic;
+}
+#oneNewsPost{
+    text-align: left;
+    font-size: 16px;
+    font-style: oblique;
+    width: 900px;
+}
+#oneNewsDate{
+    text-align: right;
+}
+div.allOfNews{
+    border:1px solid #688bb0;
+    font-size: 14px;
+    color: black;
+    font-family: Verdana, Tahoma, sans-serif;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+#newsLink{
+    background: #406cd0;
+    //margin-bottom: auto;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+div.answerAuthor{
+    border-radius: 20px;
+}
+div.newsItem{
+    border:1px solid #688bb0;
+    width: 980px;
+    font-size: 12px;
+    color: black;
+    font-family: Verdana, Tahoma, sans-serif;
+    margin-bottom: 1%;
+    text-align: left;
+    background: #ffffff;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+div.newsItem:hover{
+    background: #CCFFFF;
+}
+div.newsItem td{
+    text-align: left;
+    vertical-align: middle;
+    //letter-spacing: 3px;
+    //width: 200px;
+}
+.answerToNewsButton{
+    width: 100px;
+    margin-left: 10px;
+}
+span.answerAuthor, .answerForWhom{
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    vertical-align: middle;
+}
+
+.addNewsField{
+    background: url('../img/backgrounds/shattered/shattered.png');
+    border-radius: 10px;
+    right: 0;
+    left: 0;
+    //overflow: auto;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0,0,0,.6)
+}
+
+/******/
+/*****/
+
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+/**Account**/
+div.accountSet{
+    background-image: url('../img/backgrounds/shattered/shattered.png');
+    background-size: cover;
+    font-size: 12px;
+    margin-top: -12px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+div.accountSet table td{
+    vertical-align:top;
+}
+/*****/
+
+
+input[type="submit"] {
+    border:1px solid #688bb0;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 8px 15px rgba(0,0,0,.4);
+}
+input[type="submit"]:hover{
+    background-color: #688bb0;
+    color:#ffffff;
+}
+
+input[type="reset"] {
+    border:1px solid #688bb0;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 8px 15px rgba(0,0,0,.4);
+}
+input[type="reset"]:hover{
+    background-color: #688bb0;
+    color:#ffffff;
+}
+
+button{
+    border:1px ridge #688bb0;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 8px 15px rgba(0,0,0,.4);
+}
+button:hover{
+    background-color: #688bb0;
+    list-style: none;
+    color:#ffffff;
+}
+
+div.pageParser{
+    margin: auto;
+}
+#pageParserId a{
+    text-decoration: none;
+    ont-family: Verdana, Tahoma, sans-serif;
+    font-size: 12px;
+}
+#pageParserId a:visited{
+    color: blue;
+}
+
+/*******Footer**********/
+div.footer{
+    background: url('../img/backgrounds/diagmonds/diagmonds_@2X.png');
+    width: 1000px;
+    height: 100px;
+    margin:auto;
+    padding: 0;
+    //top:0;
+    left:0;
+    right: 0;
+    position: absolute;
+    box-shadow: 0 8px 15px rgba(0,0,0,.4);
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+ul.social{
+    list-style: none;
+    margin-top: 0;
+    outline: none;
+//width: 920px;
+    left: 0;
+    right: 0;
+}
+.socialsInFooter{
+    right: 0;
+    margin-top: 30px;
+    margin-left:65%;
+    width:350px;
+}
+.social li{
+    display: inline-block;
+}
+/****************************/
+
+
+/*******Scroll*******/
+#scrollup {
+    position: fixed;
+    opacity: 0.5;
+    padding: 15px 10px 10px; /* отступы */
+    background: #aaa;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    left: 10px;
+    bottom: 10px;
+    display: none;
+    cursor: pointer;
+    width: 60px;
+}
+#scrollup img{
+    width: 50px;
+    height: 50px;
+}
+/*******************/
+
+/********ScreenShot***********/
+.screenshotBody{
+    background: url('../img/backgrounds/shattered/shattered.png');
+    border-radius: 10px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    //overflow: auto;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0,0,0,.6);
+}
+#screenshotBody{
+    width:950px;
+    left: 0;
+    right: 0;
+}
+.galery{
+    list-style: none;
+    margin-top: 0;
+    outline: none;
+    //width: 920px;
+    left: 0;
+    right: 0;
+}
+.galery li img{
+    width: 450px;
+    height: 300px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+
+    box-shadow: 0 8px 15px rgba(0,0,0,.6);
+
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+}
+.galery li img:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.galery li{
+   //float: left;
+    display: inline-block;
+    overflow: hidden;
+    margin-top: 5px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0,0,0,.6);
+}
+/******************************/
+
+/*********Video***************/
+.gameVieoBody{
+    background: url('../img/backgrounds/shattered/shattered.png');
+    border-radius: 10px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+//overflow: auto;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0,0,0,.6);
+}
+
+#gameVideoBody{
+    width:950px;
+    left: 0;
+    right: 0;
+}
+
+.videoGalery{
+    list-style: none;
+    margin-top: 0;
+    outline: none;
+//width: 920px;
+    left: 0;
+    right: 0;
+}
+.videoGalery li{
+//float: left;
+    display: inline-block;
+    overflow: hidden;
+    margin-top: 5px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0,0,0,.6);
+}
+
+.downloadBody{
+    background: url('../img/backgrounds/shattered/shattered.png');
+    border-radius: 10px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 16px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0,0,0,.6);
+}
+.downloadBody button{
+    width: 100px;
+    height: 50px;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 16px;
+}
